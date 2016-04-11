@@ -1,0 +1,101 @@
+/**{
+	border: 1px dotted black;
+}
+*/
+body{
+	margin: 0px;
+	background-color: white;
+}
+
+/*#nav_bar{
+	position: fixed;
+	z-index:1;
+	border: 1px dotted red;
+	top:0;
+	top-margin:0px;
+	height:100px;
+	width: 100%;
+	background-color: black;
+
+}
+*/
+
+#nav {
+	z-index: 1;
+	position: fixed;
+    width: 100%;
+    height: 65px;
+	background: rgba(500, 500, 500, 0.4);
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav>div>li {
+	position: relative;
+	margin: 6px 4px 4px 4px;
+	text-align: center;
+	display: inline-block;
+	font-family: fantasy;
+	font-size: 10;
+	background: rgba(500, 500, 500, 0.4);
+	padding: 0px;
+	height: 50px;
+	width: 130px;
+	border-radius: 15px;
+
+}
+
+#nav>div>li:last-child{
+	margin:0 30px 0 0;
+}
+
+#nav>div>li:hover {
+	background: rgba(500, 500, 500, 0.6);
+}
+
+#nav>div>li>a{
+	display: block;
+	padding:18px 0px 18px 0px;
+
+}
+
+#nav>div>li>a {
+	color: black;
+}
+
+#nav>div>li>a:hover {
+	color: white;
+}
+
+.top_pic {
+	position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.bottom_pic {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.right{
+    float: right;
+}
+
+
+#img{ /*There is a little weird <a> space next to the img*/
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin:6px 0px 6px 15px;
+}
+
+#html_css_logo{
+	position: relative;
+    width:500px;
+    height:450px;
+    left:50%;
+    margin-left: -250px;
+}
